@@ -15,6 +15,10 @@ class Song
     @@all
   end 
   
+  self.song_count
+  @song_count
+end 
+
   def artist_name
     if self.artist
       self.artist.name
